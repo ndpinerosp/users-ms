@@ -6,7 +6,7 @@ services:
     build: .
     environment:
       NODE_ENV: production
-      DATABASE_HOST: users-db
+      DATABASE_HOST: user-db
       MYSQL_PORT: 3306
       MYSQL_DATABASE: user
       MYSQL_USER: mysql
@@ -23,7 +23,7 @@ services:
       MYSQL_ROOT_PASSWORD: 1234
       MYSQL_USER: mysql
       MYSQL_PASSWORD: 1234
-      DATABASE_HOST: users-db
+      DATABASE_HOST: user-db
     ports:
       - 3306:3306
     restart: on-failure
